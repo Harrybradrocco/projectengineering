@@ -4,6 +4,19 @@ import BeamDiagram from './components/BeamDiagram';
 import ResultsPanel from './components/ResultsPanel';
 import InputPanel from './components/InputPanel';
 import UnitToggle from './components/UnitToggle';
+import React from 'react';
+import DistributedLoadCalculator from './components/DistributedLoadCalculator';
+
+function App() {
+    return (
+        <div className="App">
+            <h1>Beam Load Calculations</h1>
+            <DistributedLoadCalculator />
+        </div>
+    );
+}
+
+export default App;
 
 interface BeamProperties {
   elasticModulus: number;
