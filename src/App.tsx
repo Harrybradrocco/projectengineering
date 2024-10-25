@@ -7,16 +7,16 @@ import UnitToggle from './components/UnitToggle';
 import React from 'react';
 import DistributedLoadCalculator from './components/DistributedLoadCalculator';
 
-function App() {
+const MainApp = () => {
     return (
-        <div className="Distributedload">
+        <div className="App">
             <h1>Beam Load Calculations</h1>
             <DistributedLoadCalculator />
         </div>
     );
-}
+};
 
-export default Distributedload;
+export default MainApp;
 
 interface BeamProperties {
   elasticModulus: number;
