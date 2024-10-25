@@ -9,14 +9,14 @@ import DistributedLoadCalculator from './components/DistributedLoadCalculator';
 
 function App() {
     return (
-        <div className="App">
+        <div className="Distributedload">
             <h1>Beam Load Calculations</h1>
             <DistributedLoadCalculator />
         </div>
     );
 }
 
-export default App;
+export default Distributedload;
 
 interface BeamProperties {
   elasticModulus: number;
