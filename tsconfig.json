@@ -3,13 +3,14 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-   
+
+{
     "compilerOptions": {
-"esModuleInterop": true,
-        // existing compiler options
-    },
-    // Add a comma after the closing curly brace
+        "esModuleInterop": true,
+        // other options
+    }
 }
 
 
+]
 }
