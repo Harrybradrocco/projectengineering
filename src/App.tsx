@@ -7,16 +7,14 @@ import UnitToggle from './components/UnitToggle';
 import React from 'react';
 import DistributedLoadCalculator from './components/DistributedLoadCalculator';
 
-const App = () => {
+const MainApp = () => {
     return (
-        <div className="App">
+        <div className="MainApp">
             <h1>Beam Load Calculations</h1>
             <DistributedLoadCalculator />
         </div>
     );
-};
-
-export default App;  // Only one export default here
+}
 
 
 interface BeamProperties {
